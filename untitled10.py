@@ -8,16 +8,16 @@ from sklearn.metrics import accuracy_score
 # Load full crime dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv("C:/Users/PC/Documents/UEA/Cleaned_police_data.csv")
+    return pd.read_csv("Cleaned_police_data.csv")
 
 # Load Cambridgeshire summary data with population and crime rate
 @st.cache_data
 def load_aggregated_data():
-    return pd.read_csv("C:/Users/PC/Documents/UEA/Cambridgeshire_Crime_Dataset_with_Extrapolated_Income__2023_.csv")
+    return pd.read_csv("Cambridgeshire_Crime_Dataset_with_Extrapolated_Income__2023_.csv")
 
 @st.cache_data
 def load_model_data():
-    return pd.read_csv("C:/Users/PC/Documents/UEA/Model_Ready_Crime_Dataset.csv")  
+    return pd.read_csv("Model_Ready_Crime_Dataset.csv")  
 
 
 # Load data
