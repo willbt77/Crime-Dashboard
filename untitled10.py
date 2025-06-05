@@ -29,6 +29,8 @@ st.title("Disposable Incomes relationship with crime in Cambridgeshire (2023)")
 st.markdown("""  
 This dashboard explores the relationship between disposable income levels and crime across local authorities in Cambridgeshire, using real population and crime data.  
 Below includes trends, crime distributions, and predictions based on regional income and population.
+
+The data shows that there is an inverse relation between income and crime, the following visualisations will provide reference to this
 """)
 
 
